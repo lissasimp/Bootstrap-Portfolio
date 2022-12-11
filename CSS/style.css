@@ -79,23 +79,41 @@ nav a:hover {
 }
 .header-content {
   max-width: 500px;
+  margin-top: 150px;
   margin-bottom: 50px;
-  text-align: center;
+  text-align: center; 
 }
+.device-container {
+    max-width: 325px;
+    padding-top: 75px;
+    margin-right: auto;
+  }
 .rounded circle img {
-    margin: 0px 0px;
     position: relative;
-    right: 200%;
   }
 header {
   font-size: 40px;
-  font-weight: 200;
+  font-weight: 200px;
   color: #8ecae6;
 }
-
-.device-container {
-  max-width: 325px;
-  margin-right: auto;
+blockquote {
+   font-size: 30px;
+}
+footer {
+    font-size: 30px;
+}
+blockquote::before {
+    content: open-quote;
+  }
+  blockquote::after {
+    content: close-quote;
+  }
+  blockquote {
+    quotes: "“" "”" "‘" "’";
+  }
+button {
+    position: relative;
+    left: 80px;
 }
 
 /*Work-Grid*/
