@@ -31,17 +31,17 @@ This project is about creating a portfolio using Bootstrap and custom styling in
 
 ## Credits
 The following websites were used to support this project:
--https://bootstrapshuffle.com/classes/sizing/h-100
--https://getbootstrap.com/docs/4.5/utilities/sizing/
--https://getbootstrap.com/docs/4.0/layout/grid/
--https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp
--https://www.freecodecamp.org/news/z-index-explained-how-to-stack-elements-using-css-7c5aa0f179b3
--https://stackoverflow.com/questions/3225891/what-does-the-greater-than-sign-css-selector-mean
--https://www.w3docs.com/snippets/html/how-to-add-an-image-in-the-title-bar.html
--https://www.w3schools.com/css/css_positioning.asp
--https://developer.mozilla.org/en-US/docs/Web/CSS/::before
--https://css-tricks.com/almanac/properties/q/quotes/
--https://www.sitepoint.com/bootstrap-card-component-introduction/#:~:text=Controlling%20Bootstrap%20Card%20Component%20Width%20and%20Height&text=Normally%2C%20the%20height%20of%20the,h%2D200%22%3E%20).
+- https://bootstrapshuffle.com/classes/sizing/h-100
+- https://getbootstrap.com/docs/4.5/utilities/sizing/
+- https://getbootstrap.com/docs/4.0/layout/grid/
+- https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp
+- https://www.freecodecamp.org/news/z-index-explained-how-to-stack-elements-using-css-7c5aa0f179b3
+- https://stackoverflow.com/questions/3225891/what-does-the-greater-than-sign-css-selector-mean
+- https://www.w3docs.com/snippets/html/how-to-add-an-image-in-the-title-bar.html
+- https://www.w3schools.com/css/css_positioning.asp
+- https://developer.mozilla.org/en-US/docs/Web/CSS/::before
+- https://css-tricks.com/almanac/properties/q/quotes/
+- https://www.sitepoint.com/bootstrap-card-component-introduction/#:~:text=Controlling%20Bootstrap%20Card%20Component%20Width%20and%20Height&text=Normally%2C%20the%20height%20of%20the,h%2D200%22%3E%20).
 
 
 
