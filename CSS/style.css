@@ -68,7 +68,10 @@ nav a:hover {
   background-color: transparent;
   color: black;
 }
-
+.fa-bars {
+color: #fb8500;
+font-size:28px;
+}
 /*Hero*/
 .masthead {
   position: relative;
@@ -124,4 +127,9 @@ button {
   .card {
     margin: 0 auto;
   }  
+
+/*About Me*/
+.bioContainer {
+    padding:100px;
+}
 
