@@ -33,7 +33,6 @@ ul li {
 .container {
   padding: 0;
 }
-
 #mainNav {
   position: fixed;
   width: 100%;
@@ -85,7 +84,10 @@ ul li {
 #mainNav .navbar-nav > li > a:focus:hover {
   color: #8ecae6;
 }
-
+.fa-bars {
+    color: #fb8500;
+    font-size:30px;
+    }
 /*Hero*/
 .masthead {
   position: relative;
