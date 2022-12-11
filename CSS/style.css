@@ -117,8 +117,11 @@ button {
 }
 
 /*Work-Grid*/
-.container-fluid {
-    width: 100%;
-    background-color:#8ecae6;
-}
+.cardContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .card {
+    margin: 0 auto;
+  }  
 
