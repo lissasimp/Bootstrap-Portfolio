@@ -3,24 +3,30 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background-color:#023047;
+  background-color:#fb8500;
 }
 
 body {
   font-family: "Muli", "Helvetica", "Arial", "sans-serif";
 }
 
-a {
-  color: #fb8500;
+  
+h2 {
+    color:#ffb703 ;
+    font-size: 25px;
 }
-
-/* :root {
-    --darkblue #023047
-    --midblue #219ebc
-    --lightblue #8ecae6
-    --yellow #ffb703
-    --orange #fb8500
-} */
+p {
+    color:#8ecae6;
+    font-size: 18px;
+}
+ul li {
+    color:#8ecae6;
+    font-size: 18px; 
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    box-shadow: inset 0 0 0 2em var(--hover) !important;
+}
 
 /*Navigation Bar Styling*/
 
@@ -37,42 +43,49 @@ a {
   font-weight: 200;
   z-index: 10;
 }
-
 #mainNav .navbar-brand {
   color: #fb8500;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-weight: 200;
-  font-size: 2.5rem;
+  font-size: 3rem;
   letter-spacing: 1.5px;
 }
 .navbar-nav {
   margin-left: auto;
   margin-right: 0 !important;
+  float: none;
+  text-align: right;
 }
-
-#mainNav .navbar-toggler {
+.navbar-toggler {
   font-size: 12px;
   padding: 8px 10px;
   color: white;
 }
-
+.navbar-nav >li {
+padding-left:30px;
+}
 #mainNav .navbar-nav > li > a {
   font-size: 1.5rem;
   letter-spacing: 1.5px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: #fb8500;
-  padding: 0 30px;
+}
+#mainNav .navbar-nav > li > a.active {
+  color: #fdcc52 !important;
+  background-color: transparent;
+}
+#mainNav .navbar-nav > li > a.active:hover {
+  background-color: transparent;
+}
+#mainNav .navbar-nav > li > a,
+#mainNav .navbar-nav > li > a:focus {
+  color:#fb8500;
+}
+#mainNav .navbar-nav > li > a:hover,
+#mainNav .navbar-nav > li > a:focus:hover {
+  color:#8ecae6;
 }
 
-/* Change the color of links on hover */
-nav a:hover {
-  background-color: transparent;
-  color: black;
-}
-.fa-bars {
-color: #fb8500;
-font-size:28px;
-}
 /*Hero*/
 .masthead {
   position: relative;
@@ -92,9 +105,6 @@ font-size:28px;
     padding-top: 75px;
     margin-right: auto;
   }
-.rounded circle img {
-    position: relative;
-  }
 header {
   font-size: 40px;
   font-weight: 200px;
@@ -103,7 +113,7 @@ header {
 blockquote {
    font-size: 30px;
 }
-footer {
+cite {
     font-size: 30px;
 }
 blockquote::before {
@@ -115,8 +125,8 @@ blockquote::before {
   blockquote {
     quotes: "“" "”" "‘" "’";
   }
-button {
-    position: relative;
+.device-container .button {
+    margin-top: 20px;
     left: 80px;
 }
 
@@ -130,39 +140,51 @@ button {
     background-color: #0a5c81;
     border: none;
   }  
-.contact .card {
-    
-}
 
 /*About Me*/
 .bioContainer {
-    padding:100px;
-    position: relative;
+  padding:50px;
   width: 100%;
   height: 100%;
   background-color: #0a5c81;
+  margin-bottom: 75px;
 }
-h2 {
-    color: #023047;
-    font-size: 30px;
+.bio-content {
+    width:100%; 
+    padding:0px 15x;
 }
-
-
 .contact-section {
     padding-top: 2rem;
   }
   .contact-section .card {
     border: 0;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color:#fb8500;
+    justify-content: space-evenly;
+    bottom: 80px;
   }
-  .contact-section .card h4 {
-    font-size: 0.8rem;
-    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    text-transform: uppercase;
-    letter-spacing: 0.15rem;
+  
+  ul {
+    list-style: none;
   }
-  .bg-black {
-    color: pink!important;
+
+  /*footer*/
+  .footer {
+    background:#023047;
+    position: fixed;
+    height: 80px;
+    bottom: 0;
+    width: 100%;
   }
+  .footer a {
+    color:#fb8500;
+    font-size: 40px;
+    padding: 40px;
+    transition: all .5s ease;
+  }
+  .footer a:hover {
+    color:#8ecae6;
+  }
+ 
+ 
  

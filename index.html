@@ -20,7 +20,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
     <title>Lissa Simpson | Web Developer</title>
-    <link rel="icon" type="image/x-icon" href="./Images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./Images/favicon.ico" alt="L">
 
 </head>
 
@@ -30,13 +30,15 @@
     <!--Links to rest of page-->
     <nav class="navbar navbar-expand-lg fixed-top py-lg-0" id="mainNav">
         <div class="container">
-            <a class="navbar-brand">Lissa Simpson</a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Lissa Simpson</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
                     <i class="fas fa-bars"></i>
                 </span>
             </button>
+
+            <!--navbar links hover effect-->
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -57,13 +59,13 @@
     <!--Hero-->
     <!--Insert Jumbotron here-->
     <!--Name, Photo, Statement-->
-    <header class="masthead">
+    <header class="masthead" id="page-top">
         <div class="container h-100">
             <div class="row h-100">
                 <div class="col-sm-6 my-auto">
                     <div class="device-container">
-                        <img src="./Images/Prfile Pic.PNG" class="rounded-circle" alt="" width="350" height="350">
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Resume</a>
+                        <img src="./Images/ProfileSketch.jpg" class="rounded-circle" alt="profile picture" width="350" height="350">
+                        <a class="btn btn-primary" href="https://drive.google.com/file/d/1TChKb2k7GjYA8hoscefSNP67YPI301lX/view?usp=sharing" role="button">Resume</a>
                     </div>
                 </div>
 
@@ -71,7 +73,7 @@
                     <div class="header-content mx-auto">
                         <h1 class="mb-5"><strong>Lissa Simpson</strong></h1>
                         <blockquote>Learn the rules like a pro, so you can break them like an artist,</blockquote>
-                        <footer> Pablo Picasso</footer>
+                        <cite> Pablo Picasso</cite>
 
                     </div>
                 </div>
@@ -82,17 +84,19 @@
 
     <!--Work-->
     <!--Displayed in grid/Bootstrap Cards/Image linked to GitHub Repo-->
+    <!--box shadow on buttons-->
     <div class="container-fluid" id="projects">
         <div class="row">
             <!--First Row-->
             <div class="cardContainer col-sm-12 col-md-3 col-lg-3 text-center">
                 <div class="card h-100">
-                    <img src="./Images/Prework.jpg" class="card-img-top" alt="..." width="350" height="250">
+                    <img src="./Images/Prework.jpg" class="card-img-top" alt="laptop, book and pen" width="350" height="250">
                     <div class="card-body">
-                        <h5 class="card-title">Project: Prework</h5>
+                        <h2 class="card-title">Project: Prework</h2>
                         <p class="card-text">My first project built with HTML, CSS and JS.</p>
-                        <a href="#" class="btn btn-primary">
-                            <i class="fa-brands fa-square-github"></i>
+                        <a href="https://github.com/lissasimp/Bootcamp-Prework-Study-Guide-for-students"
+                            class="btn btn-primary">
+                            <i class="fa-brands fa-square-github" alt="github cat icon"></i>
                         </a>
                     </div>
                 </div>
@@ -100,13 +104,14 @@
 
             <div class="cardContainer col-sm-12 col-md-3 col-lg-3 text-center">
                 <div class="card h-100">
-                    <img src="./Images/Prework.jpg" class="card-img-top" alt="..."width="350" height="250">
+                    <img src="./Images/Prework.jpg" class="card-img-top" alt="laptop, book and pen" width="350" height="250">
                     <div class="card-body">
-                        <h5 class="card-title">Project: Refactor</h5>
+                        <h2 class="card-title">Project: Refactor</h2>
                         <p class="card-text">Refactoring code with semantic HTML to improve a website's accessibilty.
                         </p>
-                        <a href="#" class="btn btn-primary">
-                            <i class="fa-brands fa-square-github"></i>
+                        <a href="https://github.com/lissasimp/Homework1_Horiseon_HTML_CSS_Refactor"
+                            class="btn btn-primary">
+                            <i class="fa-brands fa-square-github" alt="github cat icon"></i>
                         </a>
                     </div>
                 </div>
@@ -114,12 +119,12 @@
 
             <div class="cardContainer col-sm-12 col-md-3 col-lg-3 text-center">
                 <div class="card h-100">
-                    <img src="./Images/Prework.jpg" class="card-img-top" alt="..."width="350" height="250">
+                    <img src="./Images/Prework.jpg" class="card-img-top" alt="laptop, book and pen" width="350" height="250">
                     <div class="card-body">
-                        <h5 class="card-title">Project: Responsive Portfolio</h5>
+                        <h2 class="card-title">Project: Responsive Portfolio</h2>
                         <p class="card-text">Building a responsive website with CSS Grid, Flexbox and media queries.</p>
-                        <a href="#" class="btn btn-primary">
-                            <i class="fa-brands fa-square-github"></i>
+                        <a href="https://github.com/lissasimp/Homework2_Responsive_Portfolio" class="btn btn-primary">
+                            <i class="fa-brands fa-square-github" alt="github cat icon"></i>
                         </a>
                     </div>
                 </div>
@@ -127,10 +132,13 @@
 
             <div class="cardContainer col-sm-12 col-md-3 col-lg-3 text-center">
                 <div class="card h-100">
-                    <img src="./Images/ComingSoon.jpg" class="card-img-top" alt="..." width="350" height="250">
+                    <img src="./Images/ComingSoon.jpg" class="card-img-top" alt="blank postcard attached to a string by a peg" width="350" height="250">
                     <div class="card-body">
-                        <h5 class="card-title">Project: Future</h5>
+                        <h2 class="card-title">Project: Future</h2>
                         <p class="card-text">Coming soon!</p>
+                        <a href="https://github.com/lissasimp" class="btn btn-primary">
+                            <i class="fa-brands fa-square-github" alt="github cat icon"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -138,159 +146,160 @@
             <!--Second Row-->
             <div class="cardContainer col-sm-12 col-md-3 col-lg-3 text-center">
                 <div class="card h-100">
-                    <img src="./Images/ComingSoon.jpg" class="card-img-top" alt="..." width="350" height="250">
+                    <img src="./Images/ComingSoon.jpg" class="card-img-top" alt="blank postcard attached to a string by a peg" width="350" height="250">
                     <div class="card-body">
-                        <h5 class="card-title">Project: Future</h5>
+                        <h2 class="card-title">Project: Future</h2>
                         <p class="card-text">Coming soon!</p>
+                        <a href="https://github.com/lissasimp" class="btn btn-primary">
+                            <i class="fa-brands fa-square-github" alt="github cat icon"></i>
+                        </a>
                     </div>
                 </div>
             </div>
 
             <div class="cardContainer col-sm-12 col-md-3 col-lg-3 text-center">
                 <div class="card h-100">
-                    <img src="./Images/ComingSoon.jpg" class="card-img-top" alt="..." width="350" height="250">
+                    <img src="./Images/ComingSoon.jpg" class="card-img-top" alt="blank postcard attached to a string by a peg" width="350" height="250">
                     <div class="card-body">
-                        <h5 class="card-title">Project: Future</h5>
+                        <h2 class="card-title">Project: Future</h2>
                         <p class="card-text">Coming soon!</p>
+                        <a href="https://github.com/lissasimp" class="btn btn-primary">
+                            <i class="fa-brands fa-square-github" alt="github cat icon"></i>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="cardContainer col-sm-12 col-md-3 col-lg-3 text-center">
                 <div class="card h-100">
-                    <img src="./Images/ComingSoon.jpg" class="card-img-top" alt="..." width="350" height="250">
+                    <img src="./Images/ComingSoon.jpg" class="card-img-top" alt="blank postcard attached to a string by a peg" width="350" height="250">
                     <div class="card-body">
-                        <h5 class="card-title">Project: Future</h5>
+                        <h2 class="card-title">Project: Future</h2>
                         <p class="card-text">Coming soon!</p>
+                        <a href="https://github.com/lissasimp" class="btn btn-primary">
+                            <i class="fa-brands fa-square-github" alt="github cat icon"></i>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="cardContainer col-sm-12 col-md-3 col-lg-3 text-center">
                 <div class="card h-100">
-                    <img src="./Images/ComingSoon.jpg" class="card-img-top" alt="..." width="350" height="250">
+                    <img src="./Images/ComingSoon.jpg" class="card-img-top" alt="blank postcard attached to a string by a peg" width="350" height="250">
                     <div class="card-body">
-                        <h5 class="card-title">Project: Future</h5>
+                        <h2 class="card-title">Project: Future</h2>
                         <p class="card-text">Coming soon!</p>
+                        <a href="https://github.com/lissasimp" class="btn btn-primary">
+                            <i class="fa-brands fa-square-github" alt="github cat icon"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <!--end of second row-->
     <!--End of work-->
 
     <!--About Me-->
     <!--brief bio and skills-->
     <section class="contact" id="aboutMe">
-    <div class="container-fluid">
-        <div class="bioContainer">
-            <div class="row">
+        <div class="container-fluid">
+            <div class="bioContainer">
+                <div class="row h-200">
 
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <div class="bio-content mx-auto">
-                        <h2 id="#aboutMe" class="mb-5"><strong>About Me</strong></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet magna vel dolor
-                            dapibus
-                            pretium non eget arcu. Nullam urna elit, luctus eget ultricies in, feugiat ac felis.
-                            Pellentesque sagittis maximus posuere. Cras maximus ipsum in eleifend maximus. Suspendisse
-                            quis
-                            feugiat turpis, vel mattis sapien.</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <div class="bio-content mx-auto">
-                        <h2 class="mb-5"><strong>Skills</strong></h2>
-                        <ul>
-                            <li>Strong creative ability</li>
-                            <li>Attention to detail</li>
-                            <li>Strong communication skills</li>
-                            <li>Excellent problem-solving skills</li>
-                            <li>The ability to explain technical matters clearly.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <div class="bio-content mx-auto">
-                        <h2 class="mb-5"><strong>Technical Skills</strong></h2>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>UI/UX design</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!--Linkedin, Twitter, Gmail, Phone-->
-    <section class="contact-section bg-black" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <div class="card pb-4 h-75">
-                        <div class="card-body text-center">
-                            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                            <h4>Address</h4>
-                            <div>Portsmouth, England</div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 text-center">
+                        <div class="bio-content mx-auto">
+                            <h2 id="#aboutMe" class="mb-5">About Me</strong></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet magna vel dolor
+                                dapibus pretium non eget arcu. Nullam urna elit, luctus eget ultricies in, feugiat ac
+                                felis.
+                                Pellentesque sagittis maximus posuere. Cras maximus ipsum in eleifend maximus.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <div class="card pb-4 h-75">
-                        <div class="card-body text-center">
-                            <i class="fas fa-envelope text-primary mb-2"></i>
-                            <h4>Email</h4>
-                            <div><a href="#!">lissasimpsonid@gmail.com</a></div>
+                    <!--transferable skills-->
+                    <div class="col-sm-12 col-md-4 col-lg-4 text-center">
+                        <div class="bio-content mx-auto">
+                            <h2 class="mb-5">Skills</strong></h2>
+                            <ul>
+                                <li>Strong creative ability</li>
+                                <li>Attention to detail</li>
+                                <li>Strong communication skills</li>
+                                <li>Excellent problem-solving skills</li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <div class="card pb-4 h-75">
-                        <div class="card-body text-center">
-                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                            <h4>Phone</h4>
-                            <div>(+44) 012 344564789 </div>
+                    <!--skills that I will learn-->
+                    <div class="col-sm-12 col-md-4 col-lg-4 text-center">
+                        <div class="bio-content mx-auto">
+                            <h2 class="mb-5">Technical Skills I will learn</strong></h2>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>UI/UX design</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    </section>
 
+        <!--contacts-->
+        <!--Address, Gmail, Phone-->
+        <section class="contact-section bg-black" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card pb-4 h-75">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marked-alt text-primary mb-2" alt="map with pin icon"></i>
+                                <h4>Address</h4>
+                                <div>Portsmouth, England</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card pb-4 h-75">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"alt="envelope icon"></i>
+                                <h4>Email</h4>
+                                <div><a href="#">lissasimpsonid@gmail.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card pb-4 h-75">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2" alt="phone icon"></i>
+                                <h4>Phone</h4>
+                                <div>(+44) 012 344564789 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end of contacts-->
 
-    <!--footer-->
-    <!--Hyperlinks - hover-->
-    <!--Buttons box shadow on hover-->
-    <!--End of footer-->
+        <!--footer-->
+        <footer class="footer">
+            <div class="container text-center">
+                <a href="https://twitter.com/LissaSimpson17"><i class="fa fa-twitter" alt="twitter bird icon"></i></a>
+                <a href="https://www.linkedin.com/in/lissa-simpson-5004a3111/" alt="linkedin icon"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/lissasimp"><i class="fa fa-github" alt="github cat icon"></i></a>
+            </div>
+        </footer>
+        <!--End of footer-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
