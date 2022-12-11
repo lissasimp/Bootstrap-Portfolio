@@ -3,29 +3,29 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background-color:#fb8500;
+  background-color: #fb8500;
 }
 
-body {
-  font-family: "Muli", "Helvetica", "Arial", "sans-serif";
-}
-
-  
+h1,
 h2 {
-    color:#ffb703 ;
-    font-size: 25px;
+  font-family: "Muli", "Helvetica", "Arial", "sans-serif";
+  color: #8ecae6;
+}
+h2 {
+  color: #ffb703;
+  font-size: 25px;
+}
+h4 {
+  font-family: "Muli", "Helvetica", "Arial", "sans-serif";
+  color: #ff9203;
 }
 p {
-    color:#8ecae6;
-    font-size: 18px;
+  color: #8ecae6;
+  font-size: 18px;
 }
 ul li {
-    color:#8ecae6;
-    font-size: 18px; 
-}
-.btn-primary:hover,
-.btn-primary:focus {
-    box-shadow: inset 0 0 0 2em var(--hover) !important;
+  color: #8ecae6;
+  font-size: 18px;
 }
 
 /*Navigation Bar Styling*/
@@ -61,8 +61,8 @@ ul li {
   padding: 8px 10px;
   color: white;
 }
-.navbar-nav >li {
-padding-left:30px;
+.navbar-nav > li {
+  padding-left: 30px;
 }
 #mainNav .navbar-nav > li > a {
   font-size: 1.5rem;
@@ -79,11 +79,11 @@ padding-left:30px;
 }
 #mainNav .navbar-nav > li > a,
 #mainNav .navbar-nav > li > a:focus {
-  color:#fb8500;
+  color: #fb8500;
 }
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color:#8ecae6;
+  color: #8ecae6;
 }
 
 /*Hero*/
@@ -98,93 +98,90 @@ padding-left:30px;
   max-width: 500px;
   margin-top: 150px;
   margin-bottom: 50px;
-  text-align: center; 
+  text-align: center;
 }
 .device-container {
-    max-width: 325px;
-    padding-top: 75px;
-    margin-right: auto;
-  }
+  max-width: 325px;
+  padding-top: 75px;
+  margin-right: auto;
+}
 header {
   font-size: 40px;
   font-weight: 200px;
   color: #8ecae6;
 }
 blockquote {
-   font-size: 30px;
+  font-size: 30px;
 }
 cite {
-    font-size: 30px;
+  font-size: 30px;
 }
 blockquote::before {
-    content: open-quote;
-  }
-  blockquote::after {
-    content: close-quote;
-  }
-  blockquote {
-    quotes: "“" "”" "‘" "’";
-  }
+  content: open-quote;
+}
+blockquote::after {
+  content: close-quote;
+}
+blockquote {
+  quotes: "“" "”" "‘" "’";
+}
 .device-container .button {
-    margin-top: 20px;
-    left: 80px;
+  margin-top: 20px;
+  left: 80px;
 }
 
 /*Work-Grid*/
 .cardContainer {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .card {
-    margin: 0 auto;
-    background-color: #0a5c81;
-    border: none;
-  }  
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card {
+  margin: 0 auto;
+  background-color: #0a5c81;
+  border: none;
+}
 
 /*About Me*/
 .bioContainer {
-  padding:50px;
+  padding: 50px;
   width: 100%;
   height: 100%;
   background-color: #0a5c81;
   margin-bottom: 75px;
 }
 .bio-content {
-    width:100%; 
-    padding:0px 15x;
+  width: 100%;
+  padding: 0px 15x;
 }
 .contact-section {
-    padding-top: 2rem;
-  }
-  .contact-section .card {
-    border: 0;
-    background-color: white;
-    color:#fb8500;
-    justify-content: space-evenly;
-    bottom: 80px;
-  }
-  
-  ul {
-    list-style: none;
-  }
-
-  /*footer*/
-  .footer {
-    background:#023047;
-    position: fixed;
-    height: 80px;
-    bottom: 0;
-    width: 100%;
-  }
-  .footer a {
-    color:#fb8500;
-    font-size: 40px;
-    padding: 40px;
-    transition: all .5s ease;
-  }
-  .footer a:hover {
-    color:#8ecae6;
-  }
- 
- 
- 
+  padding-top: 2rem;
+}
+.contact-section .card {
+  border: 0;
+  background-color: white;
+  justify-content: space-evenly;
+  bottom: 80px;
+}
+.contact-section .card .text {
+  color: #3366cc;
+}
+ul {
+  list-style: none;
+}
+/*footer*/
+.footer {
+  background: #023047;
+  position: fixed;
+  height: 80px;
+  bottom: 0;
+  width: 100%;
+}
+.footer a {
+  color: #fb8500;
+  font-size: 40px;
+  padding: 40px;
+  transition: all 0.5s ease;
+}
+.footer a:hover {
+  color: #8ecae6;
+}
