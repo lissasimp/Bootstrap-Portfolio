@@ -1,6 +1,6 @@
 # Bootstrap-Portfolio
 
-This project is about creating a portfolio using Bootstrap and custom styling in CSS.  **I learnt a lot in this project and I feel like my understanding of HTML, CSS, Github and Github Pages has really improved.** I am becoming quicker at debugging my code and know some of the common errors to check first, such as missing divs. My confidence is improving. Bootstrap has been a really interesting topic to learn about and I am looking forward to using it in future projects. This portfolio highlights my work to date as well as the thought processes behind it. This portfolio will be added to and developed as my own personal knowledge deepens and I have my projects to showcase to potential employers.
+This project is about creating a portfolio using Bootstrap and custom styling in CSS.  **I learnt a lot in this project and I feel like my understanding of HTML, CSS, Github and Github Pages has really improved.** I am becoming quicker at debugging my code and know some of the common errors to check first, such as missing divs. My confidence is improving. Bootstrap has been a really interesting topic to learn about and I am looking forward to using it in future projects. This portfolio highlights my work to date as well as the thought processes behind it. This portfolio will be added to and developed as my own personal knowledge deepens and I have more projects to showcase to potential employers.
 
 ## User Story
 

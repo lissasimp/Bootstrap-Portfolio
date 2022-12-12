@@ -85,9 +85,9 @@ ul li {
   color: #8ecae6;
 }
 .fa-bars {
-    color: #fb8500;
-    font-size:30px;
-    }
+  color: #fb8500;
+  font-size: 30px;
+}
 /*Hero*/
 .masthead {
   position: relative;
@@ -128,9 +128,9 @@ blockquote {
   quotes: "“" "”" "‘" "’";
 }
 .img-responsive {
-    display: block;
-    height: auto;
-    max-width: 100%;
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 /*Work-Grid*/
