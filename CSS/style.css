@@ -127,9 +127,10 @@ blockquote::after {
 blockquote {
   quotes: "“" "”" "‘" "’";
 }
-.device-container .button {
-  margin-top: 20px;
-  left: 80px;
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
 
 /*Work-Grid*/
