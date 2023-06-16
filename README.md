@@ -27,7 +27,7 @@ This project is about creating a portfolio using Bootstrap and custom styling in
 
 ## Usage
 
-![alt text](./Images/Website%20Screenshot.png)
+<img src=./Images/Website%20Screenshot.png width="50%" height="70%">
 
 ## Credits
 The following websites were used to support this project:
